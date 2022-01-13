@@ -4,5 +4,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 150px 0 150px;
+  padding: 0 117px 0 174px;
+  z-index: -1;
+}
+
+.featuredContent {
+  flex: 2;
+}
+
+.featuredImage {
+  flex: 3;
+  position: relative;
+  z-index: 0;
+}
+
+.circle {
+  width: 711px;
+  height: 711px;
+  background-color: #fff8f5;
+  position: absolute;
+  /* left: 662px; */
+  top: 100px;
+  border-radius: 100%;
+  /* z-index: ; */
+}
+
+.featuredContent h1 {
+  font-size: 48px;
+  font-weight: 700;
 }

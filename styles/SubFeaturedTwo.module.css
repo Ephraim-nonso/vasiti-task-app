@@ -1,0 +1,11 @@
+.container {
+  /* background: "#FFF8F5"; */
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: calc(100vh - 120px);
+}
+
+.subFeaturedContentTwo {
+}

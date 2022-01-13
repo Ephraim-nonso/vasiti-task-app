@@ -5,6 +5,7 @@ import styles from "../styles/SubFeatured.module.css";
 const SubFeatured = () => {
   return (
     <div className={styles.container}>
+      {/* <div className={styles.overlay}> */}
       <div className={styles.subFeaturedContent}>
         <h3>Josiah’s Experience</h3>
         <p>
@@ -18,8 +19,16 @@ const SubFeatured = () => {
       </div>
       <div className={styles.subFeaturedImage}>
         <div className={styles.subCircle}></div>
-        <Image src="/assets/ladies.png" alt="ladies" width={600} height={600} />
+        <div>
+          <Image
+            src="/assets/ladies.png"
+            alt="ladies"
+            width={600}
+            height={600}
+          />
+        </div>
       </div>
+      {/* </div> */}
     </div>
   );
 };

@@ -3,6 +3,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
+  margin-bottom: 2.9rem;
 }
 .logo {
   text-transform: initial;
@@ -25,6 +26,7 @@
   border: 1px solid rgba(0, 0, 0, 0.08);
   text-transform: uppercase;
   font-weight: 500;
+  /* margin-bottom: 50px; */
 }
 
 .navOne .listItem:last-child {

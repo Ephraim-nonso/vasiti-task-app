@@ -17,7 +17,7 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Featured />
+      <Featured name="Ephraim" />
       <SubFeatured />
       <Testimony />
       <SubFeaturedTwo />

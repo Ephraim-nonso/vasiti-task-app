@@ -1,14 +1,15 @@
+import Image from "next/image";
 import React from "react";
-import styles from "../styles/SubFeatured.module.css";
+import out from "../styles/SubFeatured.module.css";
+import styles from "../styles/SubFeaturedTwo.module.css";
 
 const SubFeaturedTwo = () => {
   return (
-    <div className={styles.container} style={{ background: "#FFF8F5" }}>
-      <div className={styles.subFeaturedImage}></div>
-      <div
-        className={styles.subFeaturedContent}
-        style={{ order: 1, color: "#000" }}
-      >
+    <div className={styles.container}>
+      <div className={styles.subFeaturedImageTwo} style={{ order: 2 }}>
+        <Image src="/assets/woman.png" alt="women" width={600} height={600} />
+      </div>
+      <div className={styles.subFeaturedContentTwo}>
         <h3>Tolu & Joy’s Experience</h3>
         <p>
           I had the best experience shopping with vasiti. Usability of the
