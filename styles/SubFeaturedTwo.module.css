@@ -1,11 +1,8 @@
 .container {
-  /* background: "#FFF8F5"; */
-  background-color: red;
+  background-color: #fff8f5;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  min-height: calc(100vh - 120px);
-}
-
-.subFeaturedContentTwo {
+  /* min-height: calc(100vh - 120px); */
+  padding: 100px;
 }

@@ -1,0 +1,27 @@
+.container {
+  padding: 70px;
+  line-height: 1.9;
+  font-family: "Inter", sans-serif;
+  font-size: 400;
+}
+
+.container h4 {
+  color: #474747;
+}
+
+.details {
+  display: flex;
+}
+
+/* .details div {
+  color: #049a01;
+} */
+
+.location {
+  color: #049a01;
+  margin-left: 15px;
+  background: #f0ffee;
+  width: 75px;
+  height: 30px;
+  padding: 0px 100px 0 10px;
+}

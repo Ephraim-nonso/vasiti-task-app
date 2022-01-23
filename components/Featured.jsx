@@ -3,7 +3,6 @@ import React from "react";
 import styles from "../styles/Featured.module.css";
 
 const Featured = () => {
-  // console.log(name);
   return (
     <div className={styles.container}>
       <div className={styles.featuredContent}>
@@ -15,7 +14,7 @@ const Featured = () => {
       </div>
       <div className={styles.featuredImage}>
         <div className={styles.circle}></div>
-        <div>
+        <div className={styles.img}>
           <Image src="/assets/test1.png" alt="test" width={700} height={700} />
         </div>
       </div>

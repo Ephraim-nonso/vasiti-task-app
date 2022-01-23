@@ -5,7 +5,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 117px 0 174px;
-  z-index: -1;
+  /* z-index: -1; */
+  font-family: "Inter", sans-serif;
 }
 
 .featuredContent {
@@ -21,12 +22,12 @@
 .circle {
   width: 711px;
   height: 711px;
-  background-color: #fff8f5;
+  background-color: hsl(18, 100%, 98%);
   position: absolute;
-  /* left: 662px; */
+  left: -15px;
   top: 100px;
   border-radius: 100%;
-  /* z-index: ; */
+  z-index: -1;
 }
 
 .featuredContent h1 {
